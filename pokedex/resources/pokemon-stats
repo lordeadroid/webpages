@@ -1,199 +1,199 @@
-Bulbasaur|grass,poison|45|45|64|49|49|69
-Ivysaur|grass,poison|60|60|142|62|63|130
-Venusaur|grass,poison|80|80|236|82|83|1000
-Charmander|fire|65|39|62|52|43|85
-Charmeleon|fire|80|58|142|64|58|190
-Charizard|fire,flying|100|78|240|84|78|905
-Squirtle|water|43|44|63|48|65|90
-Wartortle|water|58|59|142|63|80|225
-Blastoise|water|78|79|239|83|100|855
-Caterpie|bug|45|45|39|30|35|29
-Metapod|bug|30|50|72|20|55|99
-Butterfree|bug,flying|70|60|178|45|50|320
-Weedle|bug,poison|50|40|39|35|30|32
-Kakuna|bug,poison|35|45|72|25|50|100
-Beedrill|bug,poison|75|65|178|90|40|295
-Pidgey|normal,flying|56|40|50|45|40|18
-Pidgeotto|normal,flying|71|63|122|60|55|300
-Pidgeot|normal,flying|101|83|216|80|75|395
-Rattata|normal|72|30|51|56|35|35
-Raticate|normal|97|55|145|81|60|185
-Spearow|normal,flying|70|40|52|60|30|20
-Fearow|normal,flying|100|65|155|90|65|380
-Ekans|poison|55|35|58|60|44|69
-Arbok|poison|80|60|157|95|69|650
-Pikachu|electric|90|35|112|55|40|60
-Raichu|electric|110|60|218|90|55|300
-Sandshrew|ground|40|50|60|75|85|120
-Sandslash|ground|65|75|158|100|110|295
-Nidoran-f|poison|41|55|55|47|52|70
-Nidorina|poison|56|70|128|62|67|200
-Nidoqueen|poison,ground|76|90|227|92|87|600
-Nidoran-m|poison|50|46|55|57|40|90
-Nidorino|poison|65|61|128|72|57|195
-Nidoking|poison,ground|85|81|227|102|77|620
-Clefairy|fairy|35|70|113|45|48|75
-Clefable|fairy|60|95|217|70|73|400
-Vulpix|fire|65|38|60|41|40|99
-Ninetales|fire|100|73|177|76|75|199
-Jigglypuff|normal,fairy|20|115|95|45|20|55
-Wigglytuff|normal,fairy|45|140|196|70|45|120
-Zubat|poison,flying|55|40|49|45|35|75
-Golbat|poison,flying|90|75|159|80|70|550
-Oddish|grass,poison|30|45|64|50|55|54
-Gloom|grass,poison|40|60|138|65|70|86
-Vileplume|grass,poison|50|75|221|80|85|186
-Paras|bug,grass|25|35|57|70|55|54
-Parasect|bug,grass|30|60|142|95|80|295
-Venonat|bug,poison|45|60|61|55|50|300
-Venomoth|bug,poison|90|70|158|65|60|125
-Diglett|ground|95|10|53|55|25|8
-Dugtrio|ground|120|35|149|100|50|333
-Meowth|normal|90|40|58|45|35|42
-Persian|normal|115|65|154|70|60|320
-Psyduck|water|55|50|64|52|48|196
-Golduck|water|85|80|175|82|78|766
-Mankey|fighting|70|40|61|80|35|280
-Primeape|fighting|95|65|159|105|60|320
-Growlithe|fire|60|55|70|70|45|190
-Arcanine|fire|95|90|194|110|80|1550
-Poliwag|water|90|40|60|50|40|124
-Poliwhirl|water|90|65|135|65|65|200
-Poliwrath|water,fighting|70|90|230|95|95|540
-Abra|psychic|90|25|62|20|15|195
-Kadabra|psychic|105|40|140|35|30|565
-Alakazam|psychic|120|55|225|50|45|480
-Machop|fighting|35|70|61|80|50|195
-Machoke|fighting|45|80|142|100|70|705
-Machamp|fighting|55|90|227|130|80|1300
-Bellsprout|grass,poison|40|50|60|75|35|40
-Weepinbell|grass,poison|55|65|137|90|50|64
-Victreebel|grass,poison|70|80|221|105|65|155
-Tentacool|water,poison|70|40|67|40|35|455
-Tentacruel|water,poison|100|80|180|70|65|550
-Geodude|rock,ground|20|40|60|80|100|200
-Graveler|rock,ground|35|55|137|95|115|1050
-Golem|rock,ground|45|80|223|120|130|3000
-Ponyta|fire|90|50|82|85|55|300
-Rapidash|fire|105|65|175|100|70|950
-Slowpoke|water,psychic|15|90|63|65|65|360
-Slowbro|water,psychic|30|95|172|75|110|785
-Magnemite|electric,steel|45|25|65|35|70|60
-Magneton|electric,steel|70|50|163|60|95|600
-Farfetchd|normal,flying|60|52|132|90|55|150
-Doduo|normal,flying|75|35|62|85|45|392
-Dodrio|normal,flying|110|60|165|110|70|852
-Seel|water|45|65|65|45|55|900
-Dewgong|water,ice|70|90|166|70|80|1200
-Grimer|poison|25|80|65|80|50|300
-Muk|poison|50|105|175|105|75|300
-Shellder|water|40|30|61|65|100|40
-Cloyster|water,ice|70|50|184|95|180|1325
-Gastly|ghost,poison|80|30|62|35|30|1
-Haunter|ghost,poison|95|45|142|50|45|1
-Gengar|ghost,poison|110|60|225|65|60|405
-Onix|rock,ground|70|35|77|45|160|2100
-Drowzee|psychic|42|60|66|48|45|324
-Hypno|psychic|67|85|169|73|70|756
-Krabby|water|50|30|65|105|90|65
-Kingler|water|75|55|166|130|115|600
-Voltorb|electric|100|40|66|30|50|104
-Electrode|electric|150|60|172|50|70|666
-Exeggcute|grass,psychic|40|60|65|40|80|25
-Exeggutor|grass,psychic|55|95|186|95|85|1200
-Cubone|ground|35|50|64|50|95|65
-Marowak|ground|45|60|149|80|110|450
-Hitmonlee|fighting|87|50|159|120|53|498
-Hitmonchan|fighting|76|50|159|105|79|502
-Lickitung|normal|30|90|77|55|75|655
-Koffing|poison|35|40|68|65|95|10
-Weezing|poison|60|65|172|90|120|95
-Rhyhorn|ground,rock|25|80|69|85|95|1150
-Rhydon|ground,rock|40|105|170|130|120|1200
-Chansey|normal|50|250|395|5|5|346
-Tangela|grass|60|65|87|55|115|350
-Kangaskhan|normal|90|105|172|95|80|800
-Horsea|water|60|30|59|40|70|80
-Seadra|water|85|55|154|65|95|250
-Goldeen|water|63|45|64|67|60|150
-Seaking|water|68|80|158|92|65|390
-Staryu|water|85|30|68|45|55|345
-Starmie|water,psychic|115|60|182|75|85|800
-Mr-mime|psychic,fairy|90|40|161|45|65|545
-Scyther|bug,flying|105|70|100|110|80|560
-Jynx|ice,psychic|95|65|159|50|35|406
-Electabuzz|electric|105|65|172|83|57|300
-Magmar|fire|93|65|173|95|57|445
-Pinsir|bug|85|65|175|125|100|550
-Tauros|normal|110|75|172|100|95|884
-Magikarp|water|80|20|40|10|55|100
-Gyarados|water,flying|81|95|189|125|79|2350
-Lapras|water,ice|60|130|187|85|80|2200
-Ditto|normal|48|48|101|48|48|40
-Eevee|normal|55|55|65|55|50|65
-Vaporeon|water|65|130|184|65|60|290
-Jolteon|electric|130|65|184|65|60|245
-Flareon|fire|65|65|184|130|60|250
-Porygon|normal|40|65|79|60|70|365
-Omanyte|rock,water|35|35|71|40|100|75
-Omastar|rock,water|55|70|173|60|125|350
-Kabuto|rock,water|55|30|71|80|90|115
-Kabutops|rock,water|80|60|173|115|105|405
-Aerodactyl|rock,flying|130|80|180|105|65|590
-Snorlax|normal|30|160|189|110|65|4600
-Articuno|ice,flying|85|90|261|85|100|554
-Zapdos|electric,flying|100|90|261|90|85|526
-Moltres|fire,flying|90|90|261|100|90|600
-Dratini|dragon|50|41|60|64|45|33
-Dragonair|dragon|70|61|147|84|65|165
-Dragonite|dragon,flying|80|91|270|134|95|2100
-Mewtwo|psychic|130|106|306|110|90|1220
-Mew|psychic|100|100|270|100|100|40
-Chikorita|grass|45|45|64|49|65|64
-Bayleef|grass|60|60|142|62|80|158
-Meganium|grass|80|80|236|82|100|1005
-Cyndaquil|fire|65|39|62|52|43|79
-Quilava|fire|80|58|142|64|58|190
-Typhlosion|fire|100|78|240|84|78|795
-Totodile|water|43|50|63|65|64|95
-Croconaw|water|58|65|142|80|80|250
-Feraligatr|water|78|85|239|105|100|888
-Sentret|normal|20|35|43|46|34|60
-Furret|normal|90|85|145|76|64|325
-Hoothoot|normal,flying|50|60|52|30|30|212
-Noctowl|normal,flying|70|100|158|50|50|408
-Ledyba|bug,flying|55|40|53|20|30|108
-Ledian|bug,flying|85|55|137|35|50|356
-Spinarak|bug,poison|30|40|50|60|40|85
-Ariados|bug,poison|40|70|140|90|70|335
-Crobat|poison,flying|130|85|241|90|80|750
-Chinchou|water,electric|67|75|66|38|38|120
-Lanturn|water,electric|67|125|161|58|58|225
-Pichu|electric|60|20|41|40|15|20
-Cleffa|fairy|15|50|44|25|28|30
-Igglybuff|normal,fairy|15|90|42|30|15|10
-Togepi|fairy|20|35|49|20|65|15
-Togetic|fairy,flying|40|55|142|40|85|32
-Natu|psychic,flying|70|40|64|50|45|20
-Xatu|psychic,flying|95|65|165|75|70|150
-Mareep|electric|35|55|56|40|40|78
-Flaaffy|electric|45|70|128|55|55|133
-Ampharos|electric|55|90|230|75|85|615
-Bellossom|grass|50|75|221|80|95|58
-Marill|water,fairy|40|70|88|20|50|85
-Azumarill|water,fairy|50|100|189|50|80|285
-Sudowoodo|rock|30|70|144|100|115|380
-Politoed|water|70|90|225|75|75|339
-Hoppip|grass,flying|50|35|50|35|40|5
-Skiploom|grass,flying|80|55|119|45|50|10
-Jumpluff|grass,flying|110|75|207|55|70|30
-Aipom|normal|85|55|72|70|55|115
-Sunkern|grass|30|30|36|30|30|18
-Sunflora|grass|30|75|149|75|55|85
-Yanma|bug,flying|95|65|78|65|45|380
-Wooper|water,ground|15|55|42|45|45|85
-Quagsire|water,ground|35|95|151|85|85|750
-Espeon|psychic|110|65|184|65|60|265
-Umbreon|dark|65|95|184|65|110|270
-Murkrow|dark,flying|91|60|81|85|42|21
-Slowking|water,psychic|30|95|172|75|80|795
+Bulbasaur|Grass, Poison|45|45|64|49|49|69
+Ivysaur|Grass, Poison|60|60|142|62|63|130
+Venusaur|Grass, Poison|80|80|236|82|83|1000
+Charmander|Fire|65|39|62|52|43|85
+Charmeleon|Fire|80|58|142|64|58|190
+Charizard|Fire, Flying|100|78|240|84|78|905
+Squirtle|Water|43|44|63|48|65|90
+Wartortle|Water|58|59|142|63|80|225
+Blastoise|Water|78|79|239|83|100|855
+Caterpie|Bug|45|45|39|30|35|29
+Metapod|Bug|30|50|72|20|55|99
+Butterfree|Bug, Flying|70|60|178|45|50|320
+Weedle|Bug, Poison|50|40|39|35|30|32
+Kakuna|Bug, Poison|35|45|72|25|50|100
+Beedrill|Bug, Poison|75|65|178|90|40|295
+Pidgey|Normal, Flying|56|40|50|45|40|18
+Pidgeotto|Normal, Flying|71|63|122|60|55|300
+Pidgeot|Normal, Flying|101|83|216|80|75|395
+Rattata|Normal|72|30|51|56|35|35
+Raticate|Normal|97|55|145|81|60|185
+Spearow|Normal, Flying|70|40|52|60|30|20
+Fearow|Normal, Flying|100|65|155|90|65|380
+Ekans|Poison|55|35|58|60|44|69
+Arbok|Poison|80|60|157|95|69|650
+Pikachu|Electric|90|35|112|55|40|60
+Raichu|Electric|110|60|218|90|55|300
+Sandshrew|Ground|40|50|60|75|85|120
+Sandslash|Ground|65|75|158|100|110|295
+Nidoran-f|Poison|41|55|55|47|52|70
+Nidorina|Poison|56|70|128|62|67|200
+Nidoqueen|Poison, Ground|76|90|227|92|87|600
+Nidoran-m|Poison|50|46|55|57|40|90
+Nidorino|Poison|65|61|128|72|57|195
+Nidoking|Poison, Ground|85|81|227|102|77|620
+Clefairy|Fairy|35|70|113|45|48|75
+Clefable|Fairy|60|95|217|70|73|400
+Vulpix|Fire|65|38|60|41|40|99
+Ninetales|Fire|100|73|177|76|75|199
+Jigglypuff|Normal, Fairy|20|115|95|45|20|55
+Wigglytuff|Normal, Fairy|45|140|196|70|45|120
+Zubat|Poison, Flying|55|40|49|45|35|75
+Golbat|Poison, Flying|90|75|159|80|70|550
+Oddish|Grass, Poison|30|45|64|50|55|54
+Gloom|Grass, Poison|40|60|138|65|70|86
+Vileplume|Grass, Poison|50|75|221|80|85|186
+Paras|Bug, Grass|25|35|57|70|55|54
+Parasect|Bug, Grass|30|60|142|95|80|295
+Venonat|Bug, Poison|45|60|61|55|50|300
+Venomoth|Bug, Poison|90|70|158|65|60|125
+Diglett|Ground|95|10|53|55|25|8
+Dugtrio|Ground|120|35|149|100|50|333
+Meowth|Normal|90|40|58|45|35|42
+Persian|Normal|115|65|154|70|60|320
+Psyduck|Water|55|50|64|52|48|196
+Golduck|Water|85|80|175|82|78|766
+Mankey|Fighting|70|40|61|80|35|280
+Primeape|Fighting|95|65|159|105|60|320
+Growlithe|Fire|60|55|70|70|45|190
+Arcanine|Fire|95|90|194|110|80|1550
+Poliwag|Water|90|40|60|50|40|124
+Poliwhirl|Water|90|65|135|65|65|200
+Poliwrath|Water, Fighting|70|90|230|95|95|540
+Abra|Psychic|90|25|62|20|15|195
+Kadabra|Psychic|105|40|140|35|30|565
+Alakazam|Psychic|120|55|225|50|45|480
+Machop|Fighting|35|70|61|80|50|195
+Machoke|Fighting|45|80|142|100|70|705
+Machamp|Fighting|55|90|227|130|80|1300
+Bellsprout|Grass, Poison|40|50|60|75|35|40
+Weepinbell|Grass, Poison|55|65|137|90|50|64
+Victreebel|Grass, Poison|70|80|221|105|65|155
+Tentacool|Water, Poison|70|40|67|40|35|455
+Tentacruel|Water, Poison|100|80|180|70|65|550
+Geodude|Rock, Ground|20|40|60|80|100|200
+Graveler|Rock, Ground|35|55|137|95|115|1050
+Golem|Rock, Ground|45|80|223|120|130|3000
+Ponyta|Fire|90|50|82|85|55|300
+Rapidash|Fire|105|65|175|100|70|950
+Slowpoke|Water, Psychic|15|90|63|65|65|360
+Slowbro|Water, Psychic|30|95|172|75|110|785
+Magnemite|Electric, Steel|45|25|65|35|70|60
+Magneton|Electric, Steel|70|50|163|60|95|600
+Farfetchd|Normal, Flying|60|52|132|90|55|150
+Doduo|Normal, Flying|75|35|62|85|45|392
+Dodrio|Normal, Flying|110|60|165|110|70|852
+Seel|Water|45|65|65|45|55|900
+Dewgong|Water, Ice|70|90|166|70|80|1200
+Grimer|Poison|25|80|65|80|50|300
+Muk|Poison|50|105|175|105|75|300
+Shellder|Water|40|30|61|65|100|40
+Cloyster|Water, Ice|70|50|184|95|180|1325
+Gastly|Ghost, Poison|80|30|62|35|30|1
+Haunter|Ghost, Poison|95|45|142|50|45|1
+Gengar|Ghost, Poison|110|60|225|65|60|405
+Onix|Rock, Ground|70|35|77|45|160|2100
+Drowzee|Psychic|42|60|66|48|45|324
+Hypno|Psychic|67|85|169|73|70|756
+Krabby|Water|50|30|65|105|90|65
+Kingler|Water|75|55|166|130|115|600
+Voltorb|Electric|100|40|66|30|50|104
+Electrode|Electric|150|60|172|50|70|666
+Exeggcute|Grass, Psychic|40|60|65|40|80|25
+Exeggutor|Grass, Psychic|55|95|186|95|85|1200
+Cubone|Ground|35|50|64|50|95|65
+Marowak|Ground|45|60|149|80|110|450
+Hitmonlee|Fighting|87|50|159|120|53|498
+Hitmonchan|Fighting|76|50|159|105|79|502
+Lickitung|Normal|30|90|77|55|75|655
+Koffing|Poison|35|40|68|65|95|10
+Weezing|Poison|60|65|172|90|120|95
+Rhyhorn|Ground, Rock|25|80|69|85|95|1150
+Rhydon|Ground, Rock|40|105|170|130|120|1200
+Chansey|Normal|50|250|395|5|5|346
+Tangela|Grass|60|65|87|55|115|350
+Kangaskhan|Normal|90|105|172|95|80|800
+Horsea|Water|60|30|59|40|70|80
+Seadra|Water|85|55|154|65|95|250
+Goldeen|Water|63|45|64|67|60|150
+Seaking|Water|68|80|158|92|65|390
+Staryu|Water|85|30|68|45|55|345
+Starmie|Water, Psychic|115|60|182|75|85|800
+Mr-mime|Psychic, Fairy|90|40|161|45|65|545
+Scyther|Bug, Flying|105|70|100|110|80|560
+Jynx|Ice, Psychic|95|65|159|50|35|406
+Electabuzz|Electric|105|65|172|83|57|300
+Magmar|Fire|93|65|173|95|57|445
+Pinsir|Bug|85|65|175|125|100|550
+Tauros|Normal|110|75|172|100|95|884
+Magikarp|Water|80|20|40|10|55|100
+Gyarados|Water, Flying|81|95|189|125|79|2350
+Lapras|Water, Ice|60|130|187|85|80|2200
+Ditto|Normal|48|48|101|48|48|40
+Eevee|Normal|55|55|65|55|50|65
+Vaporeon|Water|65|130|184|65|60|290
+Jolteon|Electric|130|65|184|65|60|245
+Flareon|Fire|65|65|184|130|60|250
+Porygon|Normal|40|65|79|60|70|365
+Omanyte|Rock, Water|35|35|71|40|100|75
+Omastar|Rock, Water|55|70|173|60|125|350
+Kabuto|Rock, Water|55|30|71|80|90|115
+Kabutops|Rock, Water|80|60|173|115|105|405
+Aerodactyl|Rock, Flying|130|80|180|105|65|590
+Snorlax|Normal|30|160|189|110|65|4600
+Articuno|Ice, Flying|85|90|261|85|100|554
+Zapdos|Electric, Flying|100|90|261|90|85|526
+Moltres|Fire, Flying|90|90|261|100|90|600
+Dratini|Dragon|50|41|60|64|45|33
+Dragonair|Dragon|70|61|147|84|65|165
+Dragonite|Dragon, Flying|80|91|270|134|95|2100
+Mewtwo|Psychic|130|106|306|110|90|1220
+Mew|Psychic|100|100|270|100|100|40
+Chikorita|Grass|45|45|64|49|65|64
+Bayleef|Grass|60|60|142|62|80|158
+Meganium|Grass|80|80|236|82|100|1005
+Cyndaquil|Fire|65|39|62|52|43|79
+Quilava|Fire|80|58|142|64|58|190
+Typhlosion|Fire|100|78|240|84|78|795
+Totodile|Water|43|50|63|65|64|95
+Croconaw|Water|58|65|142|80|80|250
+Feraligatr|Water|78|85|239|105|100|888
+Sentret|Normal|20|35|43|46|34|60
+Furret|Normal|90|85|145|76|64|325
+Hoothoot|Normal, Flying|50|60|52|30|30|212
+Noctowl|Normal, Flying|70|100|158|50|50|408
+Ledyba|Bug, Flying|55|40|53|20|30|108
+Ledian|Bug, Flying|85|55|137|35|50|356
+Spinarak|Bug, Poison|30|40|50|60|40|85
+Ariados|Bug, Poison|40|70|140|90|70|335
+Crobat|Poison, Flying|130|85|241|90|80|750
+Chinchou|Water, Electric|67|75|66|38|38|120
+Lanturn|Water, Electric|67|125|161|58|58|225
+Pichu|Electric|60|20|41|40|15|20
+Cleffa|Fairy|15|50|44|25|28|30
+Igglybuff|Normal, Fairy|15|90|42|30|15|10
+Togepi|Fairy|20|35|49|20|65|15
+Togetic|Fairy, Flying|40|55|142|40|85|32
+Natu|Psychic, Flying|70|40|64|50|45|20
+Xatu|Psychic, Flying|95|65|165|75|70|150
+Mareep|Electric|35|55|56|40|40|78
+Flaaffy|Electric|45|70|128|55|55|133
+Ampharos|Electric|55|90|230|75|85|615
+Bellossom|Grass|50|75|221|80|95|58
+Marill|Water, Fairy|40|70|88|20|50|85
+Azumarill|Water, Fairy|50|100|189|50|80|285
+Sudowoodo|Rock|30|70|144|100|115|380
+Politoed|Water|70|90|225|75|75|339
+Hoppip|Grass, Flying|50|35|50|35|40|5
+Skiploom|Grass, Flying|80|55|119|45|50|10
+Jumpluff|Grass, Flying|110|75|207|55|70|30
+Aipom|Normal|85|55|72|70|55|115
+Sunkern|Grass|30|30|36|30|30|18
+Sunflora|Grass|30|75|149|75|55|85
+Yanma|Bug, Flying|95|65|78|65|45|380
+Wooper|Water, Ground|15|55|42|45|45|85
+Quagsire|Water, Ground|35|95|151|85|85|750
+Espeon|Psychic|110|65|184|65|60|265
+Umbreon|Dark|65|95|184|65|110|270
+Murkrow|Dark, Flying|91|60|81|85|42|21
+Slowking|Water, Psychic|30|95|172|75|80|795

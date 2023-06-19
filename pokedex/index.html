@@ -8,22 +8,119 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       }
 
+      span {
+        color: white;
+        padding: 2.5px;
+        border: 0.5px solid black;
+        border-radius: 5px;
+        margin: 2.5px;
+      }
+
+      .grass {
+        background-color: rgb(155, 203, 80);
+      }
+
+      .poison {
+        background-color: rgb(186, 127, 200);
+        color: antiquewhite;
+      }
+
+      .rock {
+        background-color: rgb(163, 143, 33);
+        color: antiquewhite;
+      }
+
+      .fire {
+        background-color: rgb(255, 125, 37);
+      }
+
+      .electric {
+        background-color: rgb(238, 213, 53);
+      }
+
+      .ground {
+        background-color: rgb(209, 187, 64);
+        color: antiquewhite;
+      }
+
+      .water {
+        background-color: rgb(69, 146, 195);
+        color: antiquewhite;
+      }
+
+      .bug {
+        background-color: rgb(110, 156, 60);
+        color: antiquewhite;
+      }
+
+      .flying {
+        background-color: rgb(125, 192, 211);
+      }
+
+      .normal {
+        background-color: rgb(163, 172, 175);
+        color: antiquewhite;
+      }
+
+      .fairy {
+        background-color: rgb(253, 185, 233);
+      }
+
+      .fighting {
+        background-color: rgb(213, 113, 35);
+        color: antiquewhite;
+      }
+
+      .psychic {
+        background-color: rgb(243, 102, 185);
+      }
+
+      .steel {
+        background-color: rgb(158, 183, 184);
+        color: antiquewhite;
+      }
+
+      .ice {
+        background-color: rgb(81, 195, 231);
+      }
+
+      .ghost {
+        background-color: rgb(123, 98, 163);
+        color: antiquewhite;
+      }
+
+      .dragon {
+        background-color: rgb(241, 110, 87);
+        color: antiquewhite;
+      }
+
+      .dark {
+        background-color: rgb(112, 112, 112);
+        color: antiquewhite;
+      }
+
+      .title {
+        text-align: center;
+        margin-bottom: 2em;
+      }
+
       .row {
         width: 73em;
         margin: 0 auto;
       }
 
-      .title {
-        font-size: 4em;
-        font-weight: 700;
-        text-align: center;
-        margin-bottom: 0.25em;
-      }
-
       .card p {
         font-size: 1.25em;
         text-align: center;
+        width: 50%;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding-bottom: 2px;
+        margin-bottom: 1.25em;
         font-weight: 400;
+        color: white;
+        background-color: #dd1447a8;
       }
 
       .card {
@@ -33,6 +130,7 @@
         width: 16em;
         background-color: rgb(173, 216, 230);
         border: 1em solid white;
+        border-radius: 1.5em;
       }
 
       .card div {
@@ -41,6 +139,7 @@
         margin: 1em auto;
         box-sizing: content-box;
         background-color: rgb(215, 235, 242);
+        border-radius: 50%;
       }
 
       .attributes {
@@ -60,7 +159,10 @@
   </head>
 
   <body>
-    <header class="title">Pokedex</header>
+    <header class="title">
+      <img src="./resources/download.png" alt="pokedex-image">
+    </header>
+
     <main class="page">
       <section class="row">
         <div class="card">
@@ -71,7 +173,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,poison</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -104,7 +206,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,poison</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -137,7 +239,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,poison</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -170,7 +272,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -204,7 +306,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -237,7 +339,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire,flying</td>
+              <td class="value"><span class="Fire">Fire</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -270,7 +372,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -303,7 +405,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -337,7 +439,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -370,7 +472,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug</td>
+              <td class="value"><span class="Bug">Bug</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -403,7 +505,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug</td>
+              <td class="value"><span class="Bug">Bug</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -436,7 +538,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,flying</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -470,7 +572,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,poison</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -503,7 +605,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,poison</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -536,7 +638,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,poison</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -569,7 +671,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,flying</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -603,7 +705,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,flying</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -636,7 +738,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,flying</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -669,7 +771,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -702,7 +804,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -736,7 +838,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,flying</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -769,7 +871,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,flying</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -802,7 +904,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison</td>
+              <td class="value"><span class="Poison">Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -835,7 +937,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison</td>
+              <td class="value"><span class="Poison">Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -869,7 +971,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric</td>
+              <td class="value"><span class="Electric">Electric</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -902,7 +1004,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric</td>
+              <td class="value"><span class="Electric">Electric</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -935,7 +1037,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ground</td>
+              <td class="value"><span class="Ground">Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -968,7 +1070,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ground</td>
+              <td class="value"><span class="Ground">Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1002,7 +1104,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison</td>
+              <td class="value"><span class="Poison">Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1035,7 +1137,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison</td>
+              <td class="value"><span class="Poison">Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1068,7 +1170,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison,ground</td>
+              <td class="value"><span class="Poison">Poison</span><span class=" Ground"> Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1101,7 +1203,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison</td>
+              <td class="value"><span class="Poison">Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1135,7 +1237,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison</td>
+              <td class="value"><span class="Poison">Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1168,7 +1270,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison,ground</td>
+              <td class="value"><span class="Poison">Poison</span><span class=" Ground"> Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1201,7 +1303,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fairy</td>
+              <td class="value"><span class="Fairy">Fairy</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1234,7 +1336,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fairy</td>
+              <td class="value"><span class="Fairy">Fairy</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1268,7 +1370,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1301,7 +1403,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1334,7 +1436,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,fairy</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Fairy"> Fairy</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1367,7 +1469,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,fairy</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Fairy"> Fairy</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1401,7 +1503,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison,flying</td>
+              <td class="value"><span class="Poison">Poison</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1434,7 +1536,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison,flying</td>
+              <td class="value"><span class="Poison">Poison</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1467,7 +1569,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,poison</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1500,7 +1602,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,poison</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1534,7 +1636,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,poison</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1567,7 +1669,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,grass</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Grass"> Grass</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1600,7 +1702,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,grass</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Grass"> Grass</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1633,7 +1735,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,poison</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1667,7 +1769,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,poison</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1700,7 +1802,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ground</td>
+              <td class="value"><span class="Ground">Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1733,7 +1835,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ground</td>
+              <td class="value"><span class="Ground">Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1766,7 +1868,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1800,7 +1902,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1833,7 +1935,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1866,7 +1968,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1899,7 +2001,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fighting</td>
+              <td class="value"><span class="Fighting">Fighting</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1933,7 +2035,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fighting</td>
+              <td class="value"><span class="Fighting">Fighting</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1966,7 +2068,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -1999,7 +2101,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2032,7 +2134,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2066,7 +2168,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2099,7 +2201,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,fighting</td>
+              <td class="value"><span class="Water">Water</span><span class=" Fighting"> Fighting</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2132,7 +2234,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">psychic</td>
+              <td class="value"><span class="Psychic">Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2165,7 +2267,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">psychic</td>
+              <td class="value"><span class="Psychic">Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2199,7 +2301,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">psychic</td>
+              <td class="value"><span class="Psychic">Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2232,7 +2334,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fighting</td>
+              <td class="value"><span class="Fighting">Fighting</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2265,7 +2367,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fighting</td>
+              <td class="value"><span class="Fighting">Fighting</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2298,7 +2400,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fighting</td>
+              <td class="value"><span class="Fighting">Fighting</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2332,7 +2434,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,poison</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2365,7 +2467,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,poison</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2398,7 +2500,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,poison</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2431,7 +2533,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,poison</td>
+              <td class="value"><span class="Water">Water</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2465,7 +2567,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,poison</td>
+              <td class="value"><span class="Water">Water</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2498,7 +2600,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">rock,ground</td>
+              <td class="value"><span class="Rock">Rock</span><span class=" Ground"> Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2531,7 +2633,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">rock,ground</td>
+              <td class="value"><span class="Rock">Rock</span><span class=" Ground"> Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2564,7 +2666,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">rock,ground</td>
+              <td class="value"><span class="Rock">Rock</span><span class=" Ground"> Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2598,7 +2700,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2631,7 +2733,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2664,7 +2766,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,psychic</td>
+              <td class="value"><span class="Water">Water</span><span class=" Psychic"> Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2697,7 +2799,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,psychic</td>
+              <td class="value"><span class="Water">Water</span><span class=" Psychic"> Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2731,7 +2833,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric,steel</td>
+              <td class="value"><span class="Electric">Electric</span><span class=" Steel"> Steel</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2764,7 +2866,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric,steel</td>
+              <td class="value"><span class="Electric">Electric</span><span class=" Steel"> Steel</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2797,7 +2899,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,flying</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2830,7 +2932,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,flying</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2864,7 +2966,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,flying</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2897,7 +2999,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2930,7 +3032,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,ice</td>
+              <td class="value"><span class="Water">Water</span><span class=" Ice"> Ice</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2963,7 +3065,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison</td>
+              <td class="value"><span class="Poison">Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -2997,7 +3099,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison</td>
+              <td class="value"><span class="Poison">Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3030,7 +3132,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3063,7 +3165,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,ice</td>
+              <td class="value"><span class="Water">Water</span><span class=" Ice"> Ice</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3096,7 +3198,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ghost,poison</td>
+              <td class="value"><span class="Ghost">Ghost</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3130,7 +3232,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ghost,poison</td>
+              <td class="value"><span class="Ghost">Ghost</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3163,7 +3265,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ghost,poison</td>
+              <td class="value"><span class="Ghost">Ghost</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3196,7 +3298,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">rock,ground</td>
+              <td class="value"><span class="Rock">Rock</span><span class=" Ground"> Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3229,7 +3331,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">psychic</td>
+              <td class="value"><span class="Psychic">Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3263,7 +3365,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">psychic</td>
+              <td class="value"><span class="Psychic">Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3296,7 +3398,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3329,7 +3431,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3362,7 +3464,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric</td>
+              <td class="value"><span class="Electric">Electric</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3396,7 +3498,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric</td>
+              <td class="value"><span class="Electric">Electric</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3429,7 +3531,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,psychic</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Psychic"> Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3462,7 +3564,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,psychic</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Psychic"> Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3495,7 +3597,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ground</td>
+              <td class="value"><span class="Ground">Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3529,7 +3631,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ground</td>
+              <td class="value"><span class="Ground">Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3562,7 +3664,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fighting</td>
+              <td class="value"><span class="Fighting">Fighting</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3595,7 +3697,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fighting</td>
+              <td class="value"><span class="Fighting">Fighting</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3628,7 +3730,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3662,7 +3764,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison</td>
+              <td class="value"><span class="Poison">Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3695,7 +3797,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison</td>
+              <td class="value"><span class="Poison">Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3728,7 +3830,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ground,rock</td>
+              <td class="value"><span class="Ground">Ground</span><span class=" Rock"> Rock</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3761,7 +3863,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ground,rock</td>
+              <td class="value"><span class="Ground">Ground</span><span class=" Rock"> Rock</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3795,7 +3897,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3828,7 +3930,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass</td>
+              <td class="value"><span class="Grass">Grass</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3861,7 +3963,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3894,7 +3996,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3928,7 +4030,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3961,7 +4063,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -3994,7 +4096,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4027,7 +4129,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4061,7 +4163,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,psychic</td>
+              <td class="value"><span class="Water">Water</span><span class=" Psychic"> Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4094,7 +4196,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">psychic,fairy</td>
+              <td class="value"><span class="Psychic">Psychic</span><span class=" Fairy"> Fairy</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4127,7 +4229,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,flying</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4160,7 +4262,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ice,psychic</td>
+              <td class="value"><span class="Ice">Ice</span><span class=" Psychic"> Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4194,7 +4296,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric</td>
+              <td class="value"><span class="Electric">Electric</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4227,7 +4329,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4260,7 +4362,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug</td>
+              <td class="value"><span class="Bug">Bug</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4293,7 +4395,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4327,7 +4429,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4360,7 +4462,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,flying</td>
+              <td class="value"><span class="Water">Water</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4393,7 +4495,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,ice</td>
+              <td class="value"><span class="Water">Water</span><span class=" Ice"> Ice</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4426,7 +4528,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4460,7 +4562,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4493,7 +4595,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4526,7 +4628,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric</td>
+              <td class="value"><span class="Electric">Electric</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4559,7 +4661,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4593,7 +4695,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4626,7 +4728,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">rock,water</td>
+              <td class="value"><span class="Rock">Rock</span><span class=" Water"> Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4659,7 +4761,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">rock,water</td>
+              <td class="value"><span class="Rock">Rock</span><span class=" Water"> Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4692,7 +4794,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">rock,water</td>
+              <td class="value"><span class="Rock">Rock</span><span class=" Water"> Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4726,7 +4828,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">rock,water</td>
+              <td class="value"><span class="Rock">Rock</span><span class=" Water"> Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4759,7 +4861,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">rock,flying</td>
+              <td class="value"><span class="Rock">Rock</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4792,7 +4894,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4825,7 +4927,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">ice,flying</td>
+              <td class="value"><span class="Ice">Ice</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4859,7 +4961,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric,flying</td>
+              <td class="value"><span class="Electric">Electric</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4892,7 +4994,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire,flying</td>
+              <td class="value"><span class="Fire">Fire</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4925,7 +5027,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">dragon</td>
+              <td class="value"><span class="Dragon">Dragon</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4958,7 +5060,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">dragon</td>
+              <td class="value"><span class="Dragon">Dragon</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -4992,7 +5094,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">dragon,flying</td>
+              <td class="value"><span class="Dragon">Dragon</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5025,7 +5127,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">psychic</td>
+              <td class="value"><span class="Psychic">Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5058,7 +5160,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">psychic</td>
+              <td class="value"><span class="Psychic">Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5091,7 +5193,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass</td>
+              <td class="value"><span class="Grass">Grass</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5125,7 +5227,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass</td>
+              <td class="value"><span class="Grass">Grass</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5158,7 +5260,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass</td>
+              <td class="value"><span class="Grass">Grass</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5191,7 +5293,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5224,7 +5326,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5258,7 +5360,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fire</td>
+              <td class="value"><span class="Fire">Fire</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5291,7 +5393,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5324,7 +5426,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5357,7 +5459,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5391,7 +5493,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5424,7 +5526,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5457,7 +5559,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,flying</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5490,7 +5592,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,flying</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5524,7 +5626,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,flying</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5557,7 +5659,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,flying</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5590,7 +5692,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,poison</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5623,7 +5725,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,poison</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Poison"> Poison</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5657,7 +5759,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">poison,flying</td>
+              <td class="value"><span class="Poison">Poison</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5690,7 +5792,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,electric</td>
+              <td class="value"><span class="Water">Water</span><span class=" Electric"> Electric</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5723,7 +5825,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,electric</td>
+              <td class="value"><span class="Water">Water</span><span class=" Electric"> Electric</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5756,7 +5858,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric</td>
+              <td class="value"><span class="Electric">Electric</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5790,7 +5892,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fairy</td>
+              <td class="value"><span class="Fairy">Fairy</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5823,7 +5925,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal,fairy</td>
+              <td class="value"><span class="Normal">Normal</span><span class=" Fairy"> Fairy</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5856,7 +5958,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fairy</td>
+              <td class="value"><span class="Fairy">Fairy</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5889,7 +5991,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">fairy,flying</td>
+              <td class="value"><span class="Fairy">Fairy</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5923,7 +6025,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">psychic,flying</td>
+              <td class="value"><span class="Psychic">Psychic</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5956,7 +6058,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">psychic,flying</td>
+              <td class="value"><span class="Psychic">Psychic</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -5989,7 +6091,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric</td>
+              <td class="value"><span class="Electric">Electric</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6022,7 +6124,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric</td>
+              <td class="value"><span class="Electric">Electric</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6056,7 +6158,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">electric</td>
+              <td class="value"><span class="Electric">Electric</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6089,7 +6191,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass</td>
+              <td class="value"><span class="Grass">Grass</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6122,7 +6224,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,fairy</td>
+              <td class="value"><span class="Water">Water</span><span class=" Fairy"> Fairy</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6155,7 +6257,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,fairy</td>
+              <td class="value"><span class="Water">Water</span><span class=" Fairy"> Fairy</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6189,7 +6291,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">rock</td>
+              <td class="value"><span class="Rock">Rock</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6222,7 +6324,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water</td>
+              <td class="value"><span class="Water">Water</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6255,7 +6357,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,flying</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6288,7 +6390,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,flying</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6322,7 +6424,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass,flying</td>
+              <td class="value"><span class="Grass">Grass</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6355,7 +6457,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">normal</td>
+              <td class="value"><span class="Normal">Normal</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6388,7 +6490,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass</td>
+              <td class="value"><span class="Grass">Grass</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6421,7 +6523,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">grass</td>
+              <td class="value"><span class="Grass">Grass</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6455,7 +6557,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">bug,flying</td>
+              <td class="value"><span class="Bug">Bug</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6488,7 +6590,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,ground</td>
+              <td class="value"><span class="Water">Water</span><span class=" Ground"> Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6521,7 +6623,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,ground</td>
+              <td class="value"><span class="Water">Water</span><span class=" Ground"> Ground</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6554,7 +6656,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">psychic</td>
+              <td class="value"><span class="Psychic">Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6588,7 +6690,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">dark</td>
+              <td class="value"><span class="Dark">Dark</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6621,7 +6723,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">dark,flying</td>
+              <td class="value"><span class="Dark">Dark</span><span class=" Flying"> Flying</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6654,7 +6756,7 @@
           <table class="table">
             <tr>
               <td class="attributes">Types</td>
-              <td class="value">water,psychic</td>
+              <td class="value"><span class="Water">Water</span><span class=" Psychic"> Psychic</span></td>
             </tr>
             <tr>
               <td class="attributes">Weight</td>
@@ -6678,6 +6780,7 @@
             </tr>
           </table>
         </div>
+
     </main>
   </body>
 

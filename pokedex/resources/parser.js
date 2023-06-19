@@ -3,12 +3,18 @@ const fs = require("fs");
 const main = () => {
   const filePath = "pokemon-stats";
   const content = fs.readFileSync(filePath, "utf-8");
-  const lines = content.split("\n");
+  const lines = content.trim().split("\n");
 
   const parsed = lines.reduce((context, line, index) => {
     const [name, types, speed, hp, xp, attack, defense, weight] = line.split("|");
     const num = `${index + 1}`;
     const serial = num.padStart(3, 0);
+
+    const typesOf = types.split(",").reduce((context, type) => {
+      context += `<span class="${type}">${type}</span>`;
+      return context;
+    }, "");
+
     let data = context + `
     <div class="card">
     <div>
@@ -18,7 +24,7 @@ const main = () => {
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
-      <td class="value">${types}</td>
+      <td class="value">${typesOf}</td>
     </tr>
     <tr>
       <td class="attributes">Weight</td>
@@ -47,7 +53,7 @@ const main = () => {
     return data;
   }, '<section class="row">');
 
-  fs.writeFileSync("parsed-data", parsed);
+  fs.writeFileSync("parsed-stats", parsed);
 };
 
 main();
