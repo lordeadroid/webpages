@@ -7,9 +7,21 @@ const main = () => {
 
   const parsed = lines.reduce((context, line, index) => {
     const [name, types, speed, hp, xp, attack, defense, weight] = line.split("|");
+    let serial = "";
+    if (index + 1 < 9) {
+      serial = `00${index + 1}`;
+    }
+    if (index + 1 > 9 && index + 1 < 99) {
+      serial = `0${index + 1}`;
+    }
+    else {
+      serial = `${index + 1}`;
+    }
     let data = context + `
     <div class="card">
-    <div></div>
+    <div>
+    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/${serial}.png" height="200px" alt="${name}">
+    </div >
     <p>${name}</p>
     <table class="table">
     <tr>
@@ -37,8 +49,8 @@ const main = () => {
       <td class="value">${defense}</td>
     </tr>
     </table>
-    </div>
-    `
+    </div >
+  `
     if ((index + 1) % 4 === 0) data += '</section><section class="row">';
     return data;
   }, '<section class="row">');
