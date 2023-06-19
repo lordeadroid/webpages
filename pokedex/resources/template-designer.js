@@ -5,7 +5,7 @@ const main = () => {
   const content = fs.readFileSync(filePath, "utf-8");
   const lines = content.trim().split("\n");
 
-  const parsed = lines.reduce((context, line, index) => {
+  const template = lines.reduce((context, line, index) => {
     const [name, types, speed, hp, xp, attack, defense, weight] = line.split("|");
     const num = `${index + 1}`;
     const serial = num.padStart(3, 0);
@@ -17,10 +17,10 @@ const main = () => {
 
     let data = context + `
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/${serial}.png" alt="${name}">
-    </div >
-    <p>${name}</p>
+    <figcaption>${name}</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -53,7 +53,7 @@ const main = () => {
     return data;
   }, '<section class="row">');
 
-  fs.writeFileSync("parsed-stats", parsed);
+  fs.writeFileSync("template-stats", template);
 };
 
 main();

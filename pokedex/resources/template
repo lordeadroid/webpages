@@ -1,9 +1,9 @@
 <section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="Bulbasaur">
-    </div >
-    <p>Bulbasaur</p>
+    <figcaption>Bulbasaur</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -33,10 +33,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png" alt="Ivysaur">
-    </div >
-    <p>Ivysaur</p>
+    <figcaption>Ivysaur</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -66,10 +66,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png" alt="Venusaur">
-    </div >
-    <p>Venusaur</p>
+    <figcaption>Venusaur</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -99,10 +99,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" alt="Charmander">
-    </div >
-    <p>Charmander</p>
+    <figcaption>Charmander</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -132,10 +132,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png" alt="Charmeleon">
-    </div >
-    <p>Charmeleon</p>
+    <figcaption>Charmeleon</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -165,10 +165,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" alt="Charizard">
-    </div >
-    <p>Charizard</p>
+    <figcaption>Charizard</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -198,10 +198,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png" alt="Squirtle">
-    </div >
-    <p>Squirtle</p>
+    <figcaption>Squirtle</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -231,10 +231,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png" alt="Wartortle">
-    </div >
-    <p>Wartortle</p>
+    <figcaption>Wartortle</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -264,10 +264,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png" alt="Blastoise">
-    </div >
-    <p>Blastoise</p>
+    <figcaption>Blastoise</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -297,10 +297,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png" alt="Caterpie">
-    </div >
-    <p>Caterpie</p>
+    <figcaption>Caterpie</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -330,10 +330,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png" alt="Metapod">
-    </div >
-    <p>Metapod</p>
+    <figcaption>Metapod</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -363,10 +363,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png" alt="Butterfree">
-    </div >
-    <p>Butterfree</p>
+    <figcaption>Butterfree</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -396,10 +396,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png" alt="Weedle">
-    </div >
-    <p>Weedle</p>
+    <figcaption>Weedle</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -429,10 +429,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png" alt="Kakuna">
-    </div >
-    <p>Kakuna</p>
+    <figcaption>Kakuna</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -462,10 +462,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png" alt="Beedrill">
-    </div >
-    <p>Beedrill</p>
+    <figcaption>Beedrill</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -495,10 +495,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png" alt="Pidgey">
-    </div >
-    <p>Pidgey</p>
+    <figcaption>Pidgey</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -528,10 +528,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png" alt="Pidgeotto">
-    </div >
-    <p>Pidgeotto</p>
+    <figcaption>Pidgeotto</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -561,10 +561,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png" alt="Pidgeot">
-    </div >
-    <p>Pidgeot</p>
+    <figcaption>Pidgeot</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -594,10 +594,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png" alt="Rattata">
-    </div >
-    <p>Rattata</p>
+    <figcaption>Rattata</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -627,10 +627,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png" alt="Raticate">
-    </div >
-    <p>Raticate</p>
+    <figcaption>Raticate</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -660,10 +660,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png" alt="Spearow">
-    </div >
-    <p>Spearow</p>
+    <figcaption>Spearow</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -693,10 +693,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png" alt="Fearow">
-    </div >
-    <p>Fearow</p>
+    <figcaption>Fearow</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -726,10 +726,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png" alt="Ekans">
-    </div >
-    <p>Ekans</p>
+    <figcaption>Ekans</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -759,10 +759,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png" alt="Arbok">
-    </div >
-    <p>Arbok</p>
+    <figcaption>Arbok</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -792,10 +792,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" alt="Pikachu">
-    </div >
-    <p>Pikachu</p>
+    <figcaption>Pikachu</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -825,10 +825,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png" alt="Raichu">
-    </div >
-    <p>Raichu</p>
+    <figcaption>Raichu</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -858,10 +858,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png" alt="Sandshrew">
-    </div >
-    <p>Sandshrew</p>
+    <figcaption>Sandshrew</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -891,10 +891,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png" alt="Sandslash">
-    </div >
-    <p>Sandslash</p>
+    <figcaption>Sandslash</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -924,10 +924,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png" alt="Nidoran-f">
-    </div >
-    <p>Nidoran-f</p>
+    <figcaption>Nidoran-f</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -957,10 +957,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png" alt="Nidorina">
-    </div >
-    <p>Nidorina</p>
+    <figcaption>Nidorina</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -990,10 +990,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png" alt="Nidoqueen">
-    </div >
-    <p>Nidoqueen</p>
+    <figcaption>Nidoqueen</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1023,10 +1023,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png" alt="Nidoran-m">
-    </div >
-    <p>Nidoran-m</p>
+    <figcaption>Nidoran-m</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1056,10 +1056,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png" alt="Nidorino">
-    </div >
-    <p>Nidorino</p>
+    <figcaption>Nidorino</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1089,10 +1089,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png" alt="Nidoking">
-    </div >
-    <p>Nidoking</p>
+    <figcaption>Nidoking</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1122,10 +1122,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png" alt="Clefairy">
-    </div >
-    <p>Clefairy</p>
+    <figcaption>Clefairy</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1155,10 +1155,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png" alt="Clefable">
-    </div >
-    <p>Clefable</p>
+    <figcaption>Clefable</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1188,10 +1188,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png" alt="Vulpix">
-    </div >
-    <p>Vulpix</p>
+    <figcaption>Vulpix</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1221,10 +1221,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png" alt="Ninetales">
-    </div >
-    <p>Ninetales</p>
+    <figcaption>Ninetales</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1254,10 +1254,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png" alt="Jigglypuff">
-    </div >
-    <p>Jigglypuff</p>
+    <figcaption>Jigglypuff</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1287,10 +1287,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png" alt="Wigglytuff">
-    </div >
-    <p>Wigglytuff</p>
+    <figcaption>Wigglytuff</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1320,10 +1320,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png" alt="Zubat">
-    </div >
-    <p>Zubat</p>
+    <figcaption>Zubat</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1353,10 +1353,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png" alt="Golbat">
-    </div >
-    <p>Golbat</p>
+    <figcaption>Golbat</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1386,10 +1386,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png" alt="Oddish">
-    </div >
-    <p>Oddish</p>
+    <figcaption>Oddish</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1419,10 +1419,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png" alt="Gloom">
-    </div >
-    <p>Gloom</p>
+    <figcaption>Gloom</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1452,10 +1452,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png" alt="Vileplume">
-    </div >
-    <p>Vileplume</p>
+    <figcaption>Vileplume</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1485,10 +1485,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png" alt="Paras">
-    </div >
-    <p>Paras</p>
+    <figcaption>Paras</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1518,10 +1518,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png" alt="Parasect">
-    </div >
-    <p>Parasect</p>
+    <figcaption>Parasect</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1551,10 +1551,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png" alt="Venonat">
-    </div >
-    <p>Venonat</p>
+    <figcaption>Venonat</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1584,10 +1584,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png" alt="Venomoth">
-    </div >
-    <p>Venomoth</p>
+    <figcaption>Venomoth</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1617,10 +1617,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png" alt="Diglett">
-    </div >
-    <p>Diglett</p>
+    <figcaption>Diglett</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1650,10 +1650,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png" alt="Dugtrio">
-    </div >
-    <p>Dugtrio</p>
+    <figcaption>Dugtrio</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1683,10 +1683,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png" alt="Meowth">
-    </div >
-    <p>Meowth</p>
+    <figcaption>Meowth</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1716,10 +1716,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png" alt="Persian">
-    </div >
-    <p>Persian</p>
+    <figcaption>Persian</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1749,10 +1749,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="Psyduck">
-    </div >
-    <p>Psyduck</p>
+    <figcaption>Psyduck</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1782,10 +1782,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="Golduck">
-    </div >
-    <p>Golduck</p>
+    <figcaption>Golduck</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1815,10 +1815,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png" alt="Mankey">
-    </div >
-    <p>Mankey</p>
+    <figcaption>Mankey</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1848,10 +1848,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png" alt="Primeape">
-    </div >
-    <p>Primeape</p>
+    <figcaption>Primeape</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1881,10 +1881,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png" alt="Growlithe">
-    </div >
-    <p>Growlithe</p>
+    <figcaption>Growlithe</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1914,10 +1914,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png" alt="Arcanine">
-    </div >
-    <p>Arcanine</p>
+    <figcaption>Arcanine</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1947,10 +1947,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png" alt="Poliwag">
-    </div >
-    <p>Poliwag</p>
+    <figcaption>Poliwag</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -1980,10 +1980,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png" alt="Poliwhirl">
-    </div >
-    <p>Poliwhirl</p>
+    <figcaption>Poliwhirl</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2013,10 +2013,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/062.png" alt="Poliwrath">
-    </div >
-    <p>Poliwrath</p>
+    <figcaption>Poliwrath</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2046,10 +2046,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png" alt="Abra">
-    </div >
-    <p>Abra</p>
+    <figcaption>Abra</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2079,10 +2079,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png" alt="Kadabra">
-    </div >
-    <p>Kadabra</p>
+    <figcaption>Kadabra</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2112,10 +2112,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png" alt="Alakazam">
-    </div >
-    <p>Alakazam</p>
+    <figcaption>Alakazam</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2145,10 +2145,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png" alt="Machop">
-    </div >
-    <p>Machop</p>
+    <figcaption>Machop</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2178,10 +2178,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png" alt="Machoke">
-    </div >
-    <p>Machoke</p>
+    <figcaption>Machoke</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2211,10 +2211,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png" alt="Machamp">
-    </div >
-    <p>Machamp</p>
+    <figcaption>Machamp</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2244,10 +2244,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png" alt="Bellsprout">
-    </div >
-    <p>Bellsprout</p>
+    <figcaption>Bellsprout</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2277,10 +2277,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png" alt="Weepinbell">
-    </div >
-    <p>Weepinbell</p>
+    <figcaption>Weepinbell</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2310,10 +2310,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png" alt="Victreebel">
-    </div >
-    <p>Victreebel</p>
+    <figcaption>Victreebel</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2343,10 +2343,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png" alt="Tentacool">
-    </div >
-    <p>Tentacool</p>
+    <figcaption>Tentacool</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2376,10 +2376,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png" alt="Tentacruel">
-    </div >
-    <p>Tentacruel</p>
+    <figcaption>Tentacruel</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2409,10 +2409,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png" alt="Geodude">
-    </div >
-    <p>Geodude</p>
+    <figcaption>Geodude</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2442,10 +2442,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png" alt="Graveler">
-    </div >
-    <p>Graveler</p>
+    <figcaption>Graveler</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2475,10 +2475,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png" alt="Golem">
-    </div >
-    <p>Golem</p>
+    <figcaption>Golem</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2508,10 +2508,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png" alt="Ponyta">
-    </div >
-    <p>Ponyta</p>
+    <figcaption>Ponyta</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2541,10 +2541,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png" alt="Rapidash">
-    </div >
-    <p>Rapidash</p>
+    <figcaption>Rapidash</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2574,10 +2574,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png" alt="Slowpoke">
-    </div >
-    <p>Slowpoke</p>
+    <figcaption>Slowpoke</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2607,10 +2607,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png" alt="Slowbro">
-    </div >
-    <p>Slowbro</p>
+    <figcaption>Slowbro</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2640,10 +2640,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png" alt="Magnemite">
-    </div >
-    <p>Magnemite</p>
+    <figcaption>Magnemite</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2673,10 +2673,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png" alt="Magneton">
-    </div >
-    <p>Magneton</p>
+    <figcaption>Magneton</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2706,10 +2706,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png" alt="Farfetchd">
-    </div >
-    <p>Farfetchd</p>
+    <figcaption>Farfetchd</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2739,10 +2739,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png" alt="Doduo">
-    </div >
-    <p>Doduo</p>
+    <figcaption>Doduo</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2772,10 +2772,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png" alt="Dodrio">
-    </div >
-    <p>Dodrio</p>
+    <figcaption>Dodrio</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2805,10 +2805,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png" alt="Seel">
-    </div >
-    <p>Seel</p>
+    <figcaption>Seel</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2838,10 +2838,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png" alt="Dewgong">
-    </div >
-    <p>Dewgong</p>
+    <figcaption>Dewgong</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2871,10 +2871,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png" alt="Grimer">
-    </div >
-    <p>Grimer</p>
+    <figcaption>Grimer</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2904,10 +2904,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png" alt="Muk">
-    </div >
-    <p>Muk</p>
+    <figcaption>Muk</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2937,10 +2937,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png" alt="Shellder">
-    </div >
-    <p>Shellder</p>
+    <figcaption>Shellder</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -2970,10 +2970,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png" alt="Cloyster">
-    </div >
-    <p>Cloyster</p>
+    <figcaption>Cloyster</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3003,10 +3003,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png" alt="Gastly">
-    </div >
-    <p>Gastly</p>
+    <figcaption>Gastly</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3036,10 +3036,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png" alt="Haunter">
-    </div >
-    <p>Haunter</p>
+    <figcaption>Haunter</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3069,10 +3069,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png" alt="Gengar">
-    </div >
-    <p>Gengar</p>
+    <figcaption>Gengar</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3102,10 +3102,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png" alt="Onix">
-    </div >
-    <p>Onix</p>
+    <figcaption>Onix</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3135,10 +3135,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png" alt="Drowzee">
-    </div >
-    <p>Drowzee</p>
+    <figcaption>Drowzee</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3168,10 +3168,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png" alt="Hypno">
-    </div >
-    <p>Hypno</p>
+    <figcaption>Hypno</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3201,10 +3201,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png" alt="Krabby">
-    </div >
-    <p>Krabby</p>
+    <figcaption>Krabby</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3234,10 +3234,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png" alt="Kingler">
-    </div >
-    <p>Kingler</p>
+    <figcaption>Kingler</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3267,10 +3267,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png" alt="Voltorb">
-    </div >
-    <p>Voltorb</p>
+    <figcaption>Voltorb</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3300,10 +3300,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png" alt="Electrode">
-    </div >
-    <p>Electrode</p>
+    <figcaption>Electrode</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3333,10 +3333,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png" alt="Exeggcute">
-    </div >
-    <p>Exeggcute</p>
+    <figcaption>Exeggcute</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3366,10 +3366,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png" alt="Exeggutor">
-    </div >
-    <p>Exeggutor</p>
+    <figcaption>Exeggutor</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3399,10 +3399,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png" alt="Cubone">
-    </div >
-    <p>Cubone</p>
+    <figcaption>Cubone</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3432,10 +3432,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png" alt="Marowak">
-    </div >
-    <p>Marowak</p>
+    <figcaption>Marowak</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3465,10 +3465,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png" alt="Hitmonlee">
-    </div >
-    <p>Hitmonlee</p>
+    <figcaption>Hitmonlee</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3498,10 +3498,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/107.png" alt="Hitmonchan">
-    </div >
-    <p>Hitmonchan</p>
+    <figcaption>Hitmonchan</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3531,10 +3531,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png" alt="Lickitung">
-    </div >
-    <p>Lickitung</p>
+    <figcaption>Lickitung</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3564,10 +3564,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png" alt="Koffing">
-    </div >
-    <p>Koffing</p>
+    <figcaption>Koffing</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3597,10 +3597,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png" alt="Weezing">
-    </div >
-    <p>Weezing</p>
+    <figcaption>Weezing</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3630,10 +3630,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png" alt="Rhyhorn">
-    </div >
-    <p>Rhyhorn</p>
+    <figcaption>Rhyhorn</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3663,10 +3663,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png" alt="Rhydon">
-    </div >
-    <p>Rhydon</p>
+    <figcaption>Rhydon</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3696,10 +3696,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png" alt="Chansey">
-    </div >
-    <p>Chansey</p>
+    <figcaption>Chansey</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3729,10 +3729,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/114.png" alt="Tangela">
-    </div >
-    <p>Tangela</p>
+    <figcaption>Tangela</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3762,10 +3762,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/115.png" alt="Kangaskhan">
-    </div >
-    <p>Kangaskhan</p>
+    <figcaption>Kangaskhan</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3795,10 +3795,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png" alt="Horsea">
-    </div >
-    <p>Horsea</p>
+    <figcaption>Horsea</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3828,10 +3828,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/117.png" alt="Seadra">
-    </div >
-    <p>Seadra</p>
+    <figcaption>Seadra</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3861,10 +3861,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png" alt="Goldeen">
-    </div >
-    <p>Goldeen</p>
+    <figcaption>Goldeen</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3894,10 +3894,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/119.png" alt="Seaking">
-    </div >
-    <p>Seaking</p>
+    <figcaption>Seaking</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3927,10 +3927,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png" alt="Staryu">
-    </div >
-    <p>Staryu</p>
+    <figcaption>Staryu</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3960,10 +3960,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/121.png" alt="Starmie">
-    </div >
-    <p>Starmie</p>
+    <figcaption>Starmie</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -3993,10 +3993,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/122.png" alt="Mr-mime">
-    </div >
-    <p>Mr-mime</p>
+    <figcaption>Mr-mime</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4026,10 +4026,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png" alt="Scyther">
-    </div >
-    <p>Scyther</p>
+    <figcaption>Scyther</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4059,10 +4059,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png" alt="Jynx">
-    </div >
-    <p>Jynx</p>
+    <figcaption>Jynx</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4092,10 +4092,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/125.png" alt="Electabuzz">
-    </div >
-    <p>Electabuzz</p>
+    <figcaption>Electabuzz</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4125,10 +4125,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/126.png" alt="Magmar">
-    </div >
-    <p>Magmar</p>
+    <figcaption>Magmar</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4158,10 +4158,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png" alt="Pinsir">
-    </div >
-    <p>Pinsir</p>
+    <figcaption>Pinsir</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4191,10 +4191,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png" alt="Tauros">
-    </div >
-    <p>Tauros</p>
+    <figcaption>Tauros</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4224,10 +4224,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png" alt="Magikarp">
-    </div >
-    <p>Magikarp</p>
+    <figcaption>Magikarp</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4257,10 +4257,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png" alt="Gyarados">
-    </div >
-    <p>Gyarados</p>
+    <figcaption>Gyarados</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4290,10 +4290,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png" alt="Lapras">
-    </div >
-    <p>Lapras</p>
+    <figcaption>Lapras</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4323,10 +4323,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png" alt="Ditto">
-    </div >
-    <p>Ditto</p>
+    <figcaption>Ditto</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4356,10 +4356,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png" alt="Eevee">
-    </div >
-    <p>Eevee</p>
+    <figcaption>Eevee</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4389,10 +4389,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png" alt="Vaporeon">
-    </div >
-    <p>Vaporeon</p>
+    <figcaption>Vaporeon</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4422,10 +4422,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png" alt="Jolteon">
-    </div >
-    <p>Jolteon</p>
+    <figcaption>Jolteon</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4455,10 +4455,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png" alt="Flareon">
-    </div >
-    <p>Flareon</p>
+    <figcaption>Flareon</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4488,10 +4488,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/137.png" alt="Porygon">
-    </div >
-    <p>Porygon</p>
+    <figcaption>Porygon</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4521,10 +4521,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/138.png" alt="Omanyte">
-    </div >
-    <p>Omanyte</p>
+    <figcaption>Omanyte</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4554,10 +4554,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png" alt="Omastar">
-    </div >
-    <p>Omastar</p>
+    <figcaption>Omastar</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4587,10 +4587,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/140.png" alt="Kabuto">
-    </div >
-    <p>Kabuto</p>
+    <figcaption>Kabuto</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4620,10 +4620,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/141.png" alt="Kabutops">
-    </div >
-    <p>Kabutops</p>
+    <figcaption>Kabutops</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4653,10 +4653,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png" alt="Aerodactyl">
-    </div >
-    <p>Aerodactyl</p>
+    <figcaption>Aerodactyl</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4686,10 +4686,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png" alt="Snorlax">
-    </div >
-    <p>Snorlax</p>
+    <figcaption>Snorlax</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4719,10 +4719,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png" alt="Articuno">
-    </div >
-    <p>Articuno</p>
+    <figcaption>Articuno</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4752,10 +4752,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png" alt="Zapdos">
-    </div >
-    <p>Zapdos</p>
+    <figcaption>Zapdos</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4785,10 +4785,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/146.png" alt="Moltres">
-    </div >
-    <p>Moltres</p>
+    <figcaption>Moltres</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4818,10 +4818,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png" alt="Dratini">
-    </div >
-    <p>Dratini</p>
+    <figcaption>Dratini</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4851,10 +4851,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png" alt="Dragonair">
-    </div >
-    <p>Dragonair</p>
+    <figcaption>Dragonair</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4884,10 +4884,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png" alt="Dragonite">
-    </div >
-    <p>Dragonite</p>
+    <figcaption>Dragonite</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4917,10 +4917,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png" alt="Mewtwo">
-    </div >
-    <p>Mewtwo</p>
+    <figcaption>Mewtwo</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4950,10 +4950,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png" alt="Mew">
-    </div >
-    <p>Mew</p>
+    <figcaption>Mew</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -4983,10 +4983,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png" alt="Chikorita">
-    </div >
-    <p>Chikorita</p>
+    <figcaption>Chikorita</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5016,10 +5016,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/153.png" alt="Bayleef">
-    </div >
-    <p>Bayleef</p>
+    <figcaption>Bayleef</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5049,10 +5049,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/154.png" alt="Meganium">
-    </div >
-    <p>Meganium</p>
+    <figcaption>Meganium</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5082,10 +5082,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/155.png" alt="Cyndaquil">
-    </div >
-    <p>Cyndaquil</p>
+    <figcaption>Cyndaquil</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5115,10 +5115,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/156.png" alt="Quilava">
-    </div >
-    <p>Quilava</p>
+    <figcaption>Quilava</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5148,10 +5148,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/157.png" alt="Typhlosion">
-    </div >
-    <p>Typhlosion</p>
+    <figcaption>Typhlosion</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5181,10 +5181,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/158.png" alt="Totodile">
-    </div >
-    <p>Totodile</p>
+    <figcaption>Totodile</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5214,10 +5214,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/159.png" alt="Croconaw">
-    </div >
-    <p>Croconaw</p>
+    <figcaption>Croconaw</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5247,10 +5247,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/160.png" alt="Feraligatr">
-    </div >
-    <p>Feraligatr</p>
+    <figcaption>Feraligatr</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5280,10 +5280,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/161.png" alt="Sentret">
-    </div >
-    <p>Sentret</p>
+    <figcaption>Sentret</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5313,10 +5313,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/162.png" alt="Furret">
-    </div >
-    <p>Furret</p>
+    <figcaption>Furret</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5346,10 +5346,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/163.png" alt="Hoothoot">
-    </div >
-    <p>Hoothoot</p>
+    <figcaption>Hoothoot</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5379,10 +5379,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/164.png" alt="Noctowl">
-    </div >
-    <p>Noctowl</p>
+    <figcaption>Noctowl</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5412,10 +5412,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/165.png" alt="Ledyba">
-    </div >
-    <p>Ledyba</p>
+    <figcaption>Ledyba</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5445,10 +5445,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/166.png" alt="Ledian">
-    </div >
-    <p>Ledian</p>
+    <figcaption>Ledian</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5478,10 +5478,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/167.png" alt="Spinarak">
-    </div >
-    <p>Spinarak</p>
+    <figcaption>Spinarak</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5511,10 +5511,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/168.png" alt="Ariados">
-    </div >
-    <p>Ariados</p>
+    <figcaption>Ariados</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5544,10 +5544,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/169.png" alt="Crobat">
-    </div >
-    <p>Crobat</p>
+    <figcaption>Crobat</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5577,10 +5577,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/170.png" alt="Chinchou">
-    </div >
-    <p>Chinchou</p>
+    <figcaption>Chinchou</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5610,10 +5610,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/171.png" alt="Lanturn">
-    </div >
-    <p>Lanturn</p>
+    <figcaption>Lanturn</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5643,10 +5643,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/172.png" alt="Pichu">
-    </div >
-    <p>Pichu</p>
+    <figcaption>Pichu</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5676,10 +5676,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/173.png" alt="Cleffa">
-    </div >
-    <p>Cleffa</p>
+    <figcaption>Cleffa</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5709,10 +5709,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/174.png" alt="Igglybuff">
-    </div >
-    <p>Igglybuff</p>
+    <figcaption>Igglybuff</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5742,10 +5742,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/175.png" alt="Togepi">
-    </div >
-    <p>Togepi</p>
+    <figcaption>Togepi</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5775,10 +5775,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/176.png" alt="Togetic">
-    </div >
-    <p>Togetic</p>
+    <figcaption>Togetic</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5808,10 +5808,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/177.png" alt="Natu">
-    </div >
-    <p>Natu</p>
+    <figcaption>Natu</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5841,10 +5841,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/178.png" alt="Xatu">
-    </div >
-    <p>Xatu</p>
+    <figcaption>Xatu</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5874,10 +5874,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/179.png" alt="Mareep">
-    </div >
-    <p>Mareep</p>
+    <figcaption>Mareep</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5907,10 +5907,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/180.png" alt="Flaaffy">
-    </div >
-    <p>Flaaffy</p>
+    <figcaption>Flaaffy</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5940,10 +5940,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/181.png" alt="Ampharos">
-    </div >
-    <p>Ampharos</p>
+    <figcaption>Ampharos</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -5973,10 +5973,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/182.png" alt="Bellossom">
-    </div >
-    <p>Bellossom</p>
+    <figcaption>Bellossom</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6006,10 +6006,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/183.png" alt="Marill">
-    </div >
-    <p>Marill</p>
+    <figcaption>Marill</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6039,10 +6039,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/184.png" alt="Azumarill">
-    </div >
-    <p>Azumarill</p>
+    <figcaption>Azumarill</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6072,10 +6072,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/185.png" alt="Sudowoodo">
-    </div >
-    <p>Sudowoodo</p>
+    <figcaption>Sudowoodo</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6105,10 +6105,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/186.png" alt="Politoed">
-    </div >
-    <p>Politoed</p>
+    <figcaption>Politoed</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6138,10 +6138,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/187.png" alt="Hoppip">
-    </div >
-    <p>Hoppip</p>
+    <figcaption>Hoppip</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6171,10 +6171,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/188.png" alt="Skiploom">
-    </div >
-    <p>Skiploom</p>
+    <figcaption>Skiploom</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6204,10 +6204,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/189.png" alt="Jumpluff">
-    </div >
-    <p>Jumpluff</p>
+    <figcaption>Jumpluff</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6237,10 +6237,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/190.png" alt="Aipom">
-    </div >
-    <p>Aipom</p>
+    <figcaption>Aipom</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6270,10 +6270,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/191.png" alt="Sunkern">
-    </div >
-    <p>Sunkern</p>
+    <figcaption>Sunkern</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6303,10 +6303,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/192.png" alt="Sunflora">
-    </div >
-    <p>Sunflora</p>
+    <figcaption>Sunflora</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6336,10 +6336,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/193.png" alt="Yanma">
-    </div >
-    <p>Yanma</p>
+    <figcaption>Yanma</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6369,10 +6369,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/194.png" alt="Wooper">
-    </div >
-    <p>Wooper</p>
+    <figcaption>Wooper</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6402,10 +6402,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/195.png" alt="Quagsire">
-    </div >
-    <p>Quagsire</p>
+    <figcaption>Quagsire</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6435,10 +6435,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/196.png" alt="Espeon">
-    </div >
-    <p>Espeon</p>
+    <figcaption>Espeon</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6468,10 +6468,10 @@
     </div >
   </section><section class="row">
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png" alt="Umbreon">
-    </div >
-    <p>Umbreon</p>
+    <figcaption>Umbreon</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6501,10 +6501,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/198.png" alt="Murkrow">
-    </div >
-    <p>Murkrow</p>
+    <figcaption>Murkrow</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
@@ -6534,10 +6534,10 @@
     </div >
   
     <div class="card">
-    <div>
+    <figure>
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/199.png" alt="Slowking">
-    </div >
-    <p>Slowking</p>
+    <figcaption>Slowking</figcaption>
+    </figure>
     <table class="table">
     <tr>
       <td class="attributes">Types</td>
