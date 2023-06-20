@@ -138,6 +138,7 @@ span {
   box-sizing: content-box;
   background-color: rgb(215, 235, 242);
   border-radius: 50%;
+  background: linear-gradient(#8929ad, #436aac);
 }
 
 .attributes {
