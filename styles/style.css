@@ -1,0 +1,7 @@
+.background-img {
+  border: 1px solid black;
+  height: 50%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-image: url(../pokemon/images/balbasaur.jpeg);
+}
