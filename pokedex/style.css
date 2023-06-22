@@ -61,6 +61,8 @@ body {
   border-radius: 50%;
   background: linear-gradient(to bottom right, crimson, black, white);
   box-shadow: 10px 10px 25px black;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
 }
 
 .poke-image img {
@@ -85,6 +87,17 @@ body {
   border-radius: 24px;
 }
 
+.card:hover {
+  z-index: 1;
+  transform: scale(1.1);
+}
+
+.card:hover .poke-image {
+  transition: all;
+  transition-duration: 2s;
+  transform: rotateY(360deg);
+}
+
 .card:hover .attribute {
   z-index: 1;
   border-color: black;
@@ -100,7 +113,7 @@ body {
 }
 
 .content:has(.card:hover) .card:not(:hover) {
-  filter: blur(0.75em);
+  filter: blur(0.5em);
 }
 
 span {
