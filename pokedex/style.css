@@ -1,4 +1,129 @@
-/* Colors for Types */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page {
+  background-image: url(https://wallpaper.dog/large/17070454.jpg);
+  background-size: cover;
+  padding: 30px;
+  overflow: scroll;
+  /* background-color: black; */
+}
+
+.content {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card {
+  width: 280px;
+  height: fit-content;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid white;
+  background-color: rgba(135, 205, 233, 0.6);
+  border-radius: 30px;
+}
+
+.card figure {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.card figcaption {
+  padding: 5px;
+  font-size: 1.25em;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  background-color: #dd1447a8;
+  border-radius: 2em;
+}
+
+.poke-image {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: linear-gradient(to bottom right, crimson, black, white);
+  box-shadow: 10px 10px 25px black;
+}
+
+.poke-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.attributes {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.attribute {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  align-content: center;
+  transition: 2s;
+  border: 1px solid transparent;
+  padding: 4px 8px;
+  border-radius: 24px;
+}
+
+.card:hover .attribute {
+  z-index: 1;
+  border-color: black;
+  background-color: rgba(135, 205, 233, 0.6);
+}
+
+.card:hover .attribute:nth-child(odd) {
+  transform: translate(-18em, -3.2em);
+}
+
+.card:hover .attribute:nth-child(even) {
+  transform: translate(18em, -5em);
+}
+
+.content:has(.card:hover) .card:not(:hover) {
+  filter: blur(0.75em);
+}
+
+span {
+  color: white;
+  padding: 0.125em;
+  margin: 0.1em;
+  border-radius: 0.5em;
+}
+
+/* Colors for Types of Pokemon */
+.poison,
+.rock,
+.ground,
+.water,
+.bug,
+.normal,
+.fighting,
+.steel,
+.ghost,
+.dragon,
+.dark {
+  color: antiquewhite;
+}
 
 .grass {
   background-color: rgb(155, 203, 80);
@@ -6,12 +131,11 @@
 
 .poison {
   background-color: rgb(186, 127, 200);
-  color: antiquewhite;
+
 }
 
 .rock {
   background-color: rgb(163, 143, 33);
-  color: antiquewhite;
 }
 
 .fire {
@@ -24,17 +148,14 @@
 
 .ground {
   background-color: rgb(209, 187, 64);
-  color: antiquewhite;
 }
 
 .water {
   background-color: rgb(69, 146, 195);
-  color: antiquewhite;
 }
 
 .bug {
   background-color: rgb(110, 156, 60);
-  color: antiquewhite;
 }
 
 .flying {
@@ -43,7 +164,6 @@
 
 .normal {
   background-color: rgb(163, 172, 175);
-  color: antiquewhite;
 }
 
 .fairy {
@@ -52,7 +172,6 @@
 
 .fighting {
   background-color: rgb(213, 113, 35);
-  color: antiquewhite;
 }
 
 .psychic {
@@ -61,7 +180,6 @@
 
 .steel {
   background-color: rgb(158, 183, 184);
-  color: antiquewhite;
 }
 
 .ice {
@@ -70,109 +188,12 @@
 
 .ghost {
   background-color: rgb(123, 98, 163);
-  color: antiquewhite;
 }
 
 .dragon {
   background-color: rgb(241, 110, 87);
-  color: antiquewhite;
 }
 
 .dark {
   background-color: rgb(112, 112, 112);
-  color: antiquewhite;
-}
-
-body {
-  margin: 0;
-  font-size: 16px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-span {
-  color: white;
-  padding: 0.2em;
-  margin: 0.1em;
-  border-radius: 5px;
-}
-
-.title {
-  text-align: center;
-  margin-bottom: 2em;
-}
-
-.table {
-  margin-top: 5em;
-  margin-left: 0.3em;
-}
-
-.row {
-  width: 73em;
-  margin: 0 auto;
-}
-
-.card figcaption {
-  font-size: 1.25em;
-  text-align: center;
-  width: 100%;
-  margin-top: 3em;
-  font-weight: 400;
-  color: white;
-  background-color: #dd1447a8;
-  padding-bottom: 0.1em;
-  border-radius: 2em;
-}
-
-.dex {
-  display: table;
-  border-spacing: 2em;
-  box-sizing: border-box;
-  margin: 0 auto;
-}
-
-.card {
-  display: table-cell;
-  margin: 0 auto;
-  height: 30em;
-  width: 16em;
-  background-color: rgb(173, 216, 230, 0.9);
-  border-radius: 1.5em;
-}
-
-.card:hover {
-  box-shadow: 0 0 1.5em white;
-}
-
-.card figure {
-  height: 14em;
-  width: 14em;
-  margin: 1em auto;
-  box-sizing: content-box;
-  background-image: linear-gradient(to bottom right, crimson, black, white);
-  border-radius: 50%;
-  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.585);
-}
-
-.attributes {
-  padding-left: 1em;
-  font-weight: 700;
-}
-
-.value {
-  width: 64%;
-  text-align: right;
-}
-
-img {
-  height: 12em;
-}
-
-.page {
-  background-image: url(https://wallpaper.dog/large/17070454.jpg);
-  background-size:cover;
-}
-
-.content {
-  overflow: scroll;
-  height: 80%;
 }
