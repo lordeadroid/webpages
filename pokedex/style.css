@@ -10,11 +10,11 @@ body {
 }
 
 .page {
-  background-image: url(https://wallpaper.dog/large/17070454.jpg);
+  /* background-image: url(https://wallpaper.dog/large/17070454.jpg); */
   background-size: cover;
   padding: 30px;
   overflow: scroll;
-  /* background-color: black; */
+  background-color: black;
 }
 
 .content {
@@ -95,7 +95,19 @@ body {
 .card:hover .poke-image {
   transition: all;
   transition-duration: 2s;
-  transform: rotateY(360deg);
+  transform: translate(0, 10em);
+}
+
+.card:hover img {
+  transition: all;
+  transition-duration: 2s;
+  transform: rotate(360deg);
+}
+
+.card:hover figcaption {
+  transition: all;
+  transition-duration: 2s;
+  transform: translate(0, -175px);
 }
 
 .card:hover .attribute {
@@ -105,11 +117,11 @@ body {
 }
 
 .card:hover .attribute:nth-child(odd) {
-  transform: translate(-18em, -3.2em);
+  transform: translate(-18em, -5.2em);
 }
 
 .card:hover .attribute:nth-child(even) {
-  transform: translate(18em, -5em);
+  transform: translate(18em, -7em);
 }
 
 .content:has(.card:hover) .card:not(:hover) {
