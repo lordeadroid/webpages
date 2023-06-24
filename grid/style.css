@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+.layout1 {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 20% 65% 15%;
+  grid-template-rows: 8% 82% 8%;
+  gap: 1%;
+  grid-template-areas: "header header header" "nav article ads" "nav footer footer";
+}
+
+.header1 {
+  padding: 0.25em;
+  color: white;
+  font-size: 5em;
+  grid-area: header;
+  background-color: gold;
+}
+
+.nav1 {
+  grid-area: nav;
+  background-color: pink;
+}
+
+.article1 {
+  grid-area: article;
+  background-color: crimson;
+}
+
+.ads1 {
+  grid-area: ads;
+  background-color: aqua;
+}
+
+.footer1 {
+  grid-area: footer;
+  background-color: blue;
+}
+
+.layout2 {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 20% 65% 15%;
+  grid-template-rows: 8% 82% 8%;
+  gap: 1%;
+  grid-template-areas: "header header header" "nav article ads" "footer footer footer";
+}
+
+.header2 {
+  padding: 0.25em;
+  color: white;
+  font-size: 5em;
+  grid-area: header;
+  background-color: gold;
+}
+
+.nav2 {
+  grid-area: nav;
+  background-color: pink;
+}
+
+.article2 {
+  grid-area: article;
+  background-color: crimson;
+}
+
+.ads2 {
+  grid-area: ads;
+  background-color: aqua;
+}
+
+.footer2 {
+  grid-area: footer;
+  background-color: blue;
+}
+
+.layout3 {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 64% 18% 16%;
+  grid-template-rows: 8% 82% 8%;
+  gap: 1%;
+  grid-template-areas: "header header header" "article nav ads" "footer footer footer";
+}
+
+.header3 {
+  padding: 0.25em;
+  color: white;
+  font-size: 5em;
+  grid-area: header;
+  background-color: gold;
+}
+
+.nav3 {
+  grid-area: nav;
+  background-color: pink;
+}
+
+.article3 {
+  grid-area: article;
+  background-color: crimson;
+}
+
+.ads3 {
+  grid-area: ads;
+  background-color: aqua;
+}
+
+.footer3 {
+  grid-area: footer;
+  background-color: blue;
+}
+
+.layout12 {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 12.5% 12.5% 12.5% 12.5%;
+  gap: 10px;
+  grid-template-areas: "a1 a1 a1 a1" "a2 a3 a4 a5" "a2 a6 a4 a5" "a2 a6 a7 a5" "a2 a6 a8 a9";
+}
+
+.a1,
+.a2,
+.a3,
+.a4,
+.a5,
+.a6,
+.a7,
+.a8,
+.a9 {
+  color: white;
+  font-size: 7em;
+  padding: 0.25em;
+  background-color: gold;
+}
+
+.a1 {
+  grid-area: a1;
+}
+.a2 {
+  grid-area: a2;
+}
+.a3 {
+  grid-area: a3;
+}
+.a4 {
+  grid-area: a4;
+}
+.a5 {
+  grid-area: a5;
+}
+.a6 {
+  grid-area: a6;
+}
+.a7 {
+  grid-area: a7;
+}
+.a8 {
+  grid-area: a8;
+}
+.a9 {
+  grid-area: a9;
+}
