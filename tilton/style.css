@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page {
+  color: white;
+  height: 98%;
+  margin: 0em 2em 2em 2em;
+  background-color: transparent;
+  border-radius: 0em 0em 4em 4em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.tiltongroup.com/assets/medias/_hero_tablet/HD_tilton_20201103-338-copie.jpg);
+  background-size: cover;
+}
+
+.nav-bar {
+  height: 12em;
+  width: 170em;
+  margin: 0em 2.5em 0em 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.1em solid white;
+}
+
+.search {
+  width: 27em;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid saddlebrown;
+}
+
+.search:hover>div {
+  cursor: pointer;
+}
+
+.packaging {
+  color: black;
+  width: 19em;
+  height: 6em;
+  border: 1px solid black;
+  border-radius: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.text {
+  font-size: 2em;
+}
+
+.search-box {
+  width: 6em;
+  height: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.search-icon {
+  font-size: 2em;
+}
+
+.center-container {
+  font-size: 2em;
+  width: 24em;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.center-container:hover>div {
+  cursor: pointer;
+}
+
+.name {
+  font-size: 5em;
+  font-weight: 700;
+  border: 1px solid black;
+}

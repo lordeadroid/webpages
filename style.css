@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: content-box;
   font-size: 16px;
-  background: linear-gradient(to bottom right, yellow, yellow, hotpink);
+  background: linear-gradient(to bottom right, yellow, hotpink);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -21,8 +21,9 @@ body {
 }
 
 a {
-  color: brown;
+  color: white;
   text-decoration: none;
+  text-shadow: 0.2em 0.2em 0.3em navy;
 }
 
 li {
