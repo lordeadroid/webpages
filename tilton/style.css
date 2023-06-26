@@ -38,7 +38,7 @@ body {
   cursor: pointer;
 }
 
-.packaging {
+.packaging-button {
   color: black;
   width: 19em;
   height: 6em;
@@ -68,17 +68,16 @@ body {
 }
 
 .center-container {
-  font-size: 1.5em;
-  width: 24em;
+  font-size: 1.6em;
+  gap: 3em;
   display: flex;
-  justify-content: space-between;
 }
 
 .center-container:hover>div {
   cursor: pointer;
 }
 
-.name {
+.brand-name {
   font-size: 5em;
   font-weight: 700;
 }
@@ -86,7 +85,7 @@ body {
 .content {
   font-size: 12.8em;
   position: relative;
-  top: 1.5em;
+  top: 1em;
   font-weight: 250;
   line-height: 1em;
   margin: 0 auto;

@@ -10,11 +10,15 @@ body {
 }
 
 .page {
-  /* background-image: url(https://wallpaper.dog/large/17070454.jpg); */
   background-size: cover;
   padding: 30px;
-  overflow: scroll;
   background-color: black;
+  overflow: scroll;
+}
+
+.pokedex-logo {
+  text-align: center;
+  margin-bottom: 2em;
 }
 
 .content {
@@ -61,7 +65,8 @@ body {
   border-radius: 50%;
   background: linear-gradient(to bottom right, crimson, black, white);
   box-shadow: 10px 10px 25px black;
-  transition-duration: 2s;
+  transition: ease-out;
+  transition-duration: 1s;
   transition-timing-function: ease-in;
 }
 
@@ -89,31 +94,25 @@ body {
 
 .card:hover {
   z-index: 1;
-  transform: scale(1.1);
+  transform: scale(1.05);
+  box-shadow: 0px 0px 50px white;
 }
 
 .card:hover .poke-image {
-  transition: all;
-  transition-duration: 2s;
+  transition: ease-out;
+  transition-duration: 1s;
   transform: translate(0, 10em);
 }
 
-.card:hover img {
-  transition: all;
-  transition-duration: 2s;
-  transform: rotate(360deg);
-}
-
 .card:hover figcaption {
-  transition: all;
-  transition-duration: 2s;
+  transition: ease-out;
+  transition-duration: 1s;
   transform: translate(0, -175px);
 }
 
 .card:hover .attribute {
-  z-index: 1;
   border-color: black;
-  background-color: rgba(135, 205, 233, 0.6);
+  background-color: rgba(135, 205, 233, 0.9);
 }
 
 .card:hover .attribute:nth-child(odd) {

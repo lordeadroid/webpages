@@ -15,9 +15,15 @@ body {
   text-shadow: 0.2em 0.2em 0.1em darkgrey;
 }
 
+@media screen and (max-width: 700px) {
+  .page-header {
+    font-size: 4em;
+  }
+}
+
 .links {
   overflow: scroll;
-  height: 75%;
+  height: 73%;
 }
 
 a {
