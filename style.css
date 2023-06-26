@@ -26,6 +26,12 @@ body {
   height: 73%;
 }
 
+.links>ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
 a {
   color: white;
   text-decoration: none;
