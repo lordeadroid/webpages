@@ -28,7 +28,7 @@ body {
   border-bottom: 0.1em solid white;
 }
 
-.search {
+.search-box {
   display: flex;
   justify-content: space-between;
   gap: 2em;
@@ -53,7 +53,7 @@ body {
   font-size: 2em;
 }
 
-.search-box {
+.search-button {
   width: 6em;
   height: 6em;
   display: flex;
