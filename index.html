@@ -3,14 +3,29 @@
   <head>
     <title>My Webpages</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+      window.onload = () => {
+        setInterval(() => {
+          const date = new Date();
+          const time = date.toLocaleString();
+          document.getElementById("time").innerText = time;
+        }, 1000);
+      }
+    </script>
   </head>
 
   <body>
     <div class="page">
-      <div class="page-header">
-        My Webpages
-      </div>
-      <div class="links">
+      <header class="page-header">
+        <div class="heading">
+          <h1>My Webpages</h1>
+        </div>
+        <div id="time">
+          <h3></h3>
+        </div>
+      </header>
+
+      <main class="links">
         <ul>
           <li><a href="./practice/index.html" target="_blank">Practice Page</a></li>
           <li><a href="./anushka/index.html" target="_blank">Anushka Sharma</a></li>
@@ -33,7 +48,7 @@
           <li><a href="./okta/okta.html" target="_blank">Okta</a></li>
           <li><a href="./js-page/js-page.html" target="_blank">Web Page with JS</a></li>
         </ul>
-      </div>
+      </main>
     </div>
   </body>
 

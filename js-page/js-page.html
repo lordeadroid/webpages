@@ -1,1 +1,28 @@
-html>(head>(title+link))+bod
+<html>
+
+  <head>
+    <title>JS Page</title>
+    <link rel="stylesheet" href="./js-page.css">
+    <script>
+      window.onload = () => {
+        let count = 1;
+        document.getElementById("heading").innerText = "bye";
+        setInterval(() => {
+          const date = new Date();
+          document.getElementById("clock").innerText = date.toTimeString().split(" ")[0];
+          document.getElementById("timer").innerText = count;
+          count++;
+        }, 1000);
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="page">
+      <div id="heading">Hello, World</div>
+      <div id="timer">0</div>
+      <div id="clock">time</div>
+    </div>
+  </body>
+
+</html>
