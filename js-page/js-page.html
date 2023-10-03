@@ -1,28 +1,46 @@
 <html>
-
   <head>
     <title>JS Page</title>
-    <link rel="stylesheet" href="./js-page.css">
+    <link rel="stylesheet" href="./js-page.css" />
     <script>
+      const getAnswer = (a, b, operator) => {
+        const operations = {
+          "+": (a, b) => a + b,
+          "-": (a, b) => a - b,
+          "*": (a, b) => a * b,
+          "/": (a, b) => a / b,
+          "%": (a, b) => a % b,
+        };
+
+        return operations[operator](a, b);
+      };
+
+      const calculator = () => {
+        const a = Number(prompt("Enter first number"));
+        const b = Number(prompt("Enter second number"));
+        const operator = prompt(
+          "Enter operation to be performed. Supported operations: +, -, /, % and *"
+        );
+
+        const answer = getAnswer(a, b, operator);
+
+        const answerBox = document.querySelector(".answer-box");
+        answerBox.innerText = answer;
+      };
+
       window.onload = () => {
-        let count = 1;
-        document.getElementById("heading").innerText = "bye";
-        setInterval(() => {
-          const date = new Date();
-          document.getElementById("clock").innerText = date.toTimeString().split(" ")[0];
-          document.getElementById("timer").innerText = count;
-          count++;
-        }, 1000);
-      }
+        calculator();
+      };
     </script>
   </head>
 
   <body>
     <div class="page">
-      <div id="heading">Hello, World</div>
-      <div id="timer">0</div>
-      <div id="clock">time</div>
+      <div class="answer-box"></div>
     </div>
   </body>
-
 </html>
+
+<script>
+  
+</script>

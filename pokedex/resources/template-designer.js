@@ -1,21 +1,44 @@
-const fs = require("fs");
+const fs = require('fs');
 
 const main = () => {
-  const filePath = "pokemon-stats";
-  const content = fs.readFileSync(filePath, "utf-8");
-  const lines = content.trim().split("\n");
+  const filePath = './pokemon-stats';
+  const content = fs.readFileSync(filePath, 'utf-8');
+  const lines = content.trim().split('\n');
 
   const template = lines.reduce((context, line, index) => {
-    const [name, types, speed, hp, xp, attack, defense, weight] = line.split("|");
+    const [name, pokeTypes, speed, hp, xp, attack, defense, weight] =
+      line.split('|');
     const num = `${index + 1}`;
     const serial = num.padStart(3, 0);
 
-    const typesOf = types.split(",").reduce((context, type) => {
+    const typesOf = pokeTypes.split(',').reduce((context, type) => {
       context += `<span class="${type}">${type}</span>`;
       return context;
-    }, "");
+    }, '');
 
-    let data = context + `
+    const types = pokeTypes.split(',').reduce((context, type) => {
+      context.push(type);
+      return context;
+    }, []);
+
+    const src = `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${serial}.png`;
+
+    const pokemon = {
+      name,
+      types,
+      hp,
+      xp,
+      attack,
+      defense,
+      weight,
+      src,
+    };
+    context.push(pokemon);
+    return context;
+
+    let data =
+      context +
+      `
     <div class="card">
       <figure>
       <div class="poke-image">
@@ -50,10 +73,10 @@ const main = () => {
         </div>
       </div>
     </div>
-  `
+  `;
     return data;
-  }, "");
-  fs.writeFileSync("template", template);
+  }, []);
+  fs.writeFileSync('template.json', JSON.stringify(template));
 };
 
 main();

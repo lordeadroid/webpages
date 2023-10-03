@@ -19,7 +19,7 @@ body {
 .page-header {
   color: teal;
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 85% 15%;
   font-weight: 700;
   margin: 5em;
 }
@@ -52,7 +52,7 @@ li {
 }
 
 a {
-  color: aliceblue;
+  color: cadetblue;
+  font-weight: 500;
   text-decoration: none;
-  text-shadow: 0.2em 0.2em 0.3em navy;
 }
